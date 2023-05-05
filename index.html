@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Detail Cars </title>
-    <link rel="stylesheet" href="stylesGlobal.css"> 
+    <title>ColonDetailCar</title>
+    <link rel="stylesheet" href="globalStyles.css"> 
 
-      <!-- ------------------------------ Librerias ------------------------------ -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- ------------------------------ Librerias ------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  
-</head>
-<body class="fondo">
+    <!-- ---------------- estilos compartidos de login y signup ---------------- -->
+    <link rel="stylesheet" href="loginSingupStyles.css">
+ 
+    <!-- ---------------------- logica aplicada en login ----------------------- -->
 
+</head>
+
+<body class="fondo">
     <header class="container">
-        
+        <nav>
             <img class="logo" src="IMG/img-logo.jpg" alt="img Logo">
+        </nav>
         <div class="contenido-informativo">
-            <ul>
-                <li class="item1">Alberdi Cordoba</li>
+            <ul class="items">
+                <li class="item1"><img src="IMG/img-tel-1.png"> Colon 2060 - Alberdi Cordoba</li>
                 <li class="item2">+54 3518 149736</li>
-                <li class="item3">Av. Colon 2060</li>
             </ul>
         </div>    
     </header>
 
-    <main>      
+    <section>        
             <div class="slider">
                 <img src="IMG/img-auto-1.jpeg" alt="imagen auto 1  ">
                 <img src="IMG/img-auto-2.jpeg" alt="imagen auto 2 ">
@@ -40,11 +45,10 @@
             </div>
      
             <button class="boton1" type="submit">contactenos</button>
-
-    </main>
+    </section>  
 
     <footer>
-       <h3><a href=""> <img src="IMG/icon-facebook.png" href=""> <img src="IMG/icon-instagram.png" href=""> <img class="Qr" src="IMG/img-Qr-png.png"href=""> <img src="IMG/icon-twitter.png" href=""> <img src="IMG/icon-whatsapp.png"></a></h3>
+       <a href=""> <img src="IMG/icon-facebook.png" href=""> <img src="IMG/icon-instagram.png" href=""> <img src="IMG/icon-twitter.png" href=""> <img src="IMG/icon-whatsapp.png"></a>
     </footer>
 
 </body>
