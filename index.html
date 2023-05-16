@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:p="http://primefaces.org/ui">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,12 @@
 
     <!-- ------------------------------ Librerias ------------------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/4635025c29.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <groupId>org.primefaces</groupId>
+    <artifactId>primefaces</artifactId>
+    <version>12.0.0</version>
  
     <!-- ---------------- estilos compartidos de login y signup ---------------- -->
     <link rel="stylesheet" href="loginSingupStyles.css">
@@ -22,7 +27,7 @@
 <body class="fondo">
     <header class="container">
         <nav>
-            <img class="logo" src="IMG/img-logo.jpg" alt="img Logo">
+            <img class="logo" src="IMG/img-logo-png.png" alt="img Logo">
         </nav>
         <div class="contenido-informativo">
             <ul class="items">
@@ -43,14 +48,17 @@
                 <img src="IMG/img-auto-7.jpeg" alt="imagen auto 7 ">
                 <img src="IMG/img-auto-8.jpeg" alt="imagen auto 8 ">
             </div>
-     
-            <button class="boton1" type="submit">contactenos</button>
+        <nav class="botones">
+            <button class="boton1" type="submit">Hablemos</button>
+            <button class="boton1" type="submit">Dónde estamos</button>
+        </nav>
+
     </section>  
 
     <footer>
-       <a href=""> <img src="IMG/icon-facebook.png" href=""> <img src="IMG/icon-instagram.png" href=""> <img src="IMG/icon-twitter.png" href=""> <img src="IMG/icon-whatsapp.png"></a>
+        
+       <a href=""> <img src="IMG/icon-facebook.png"> <img src="IMG/icon-instagram.png"></a>
     </footer>
-
 </body>
 
 </html>

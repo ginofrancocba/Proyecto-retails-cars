@@ -19,13 +19,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Archivo', sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 320px;
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
     background-image: url('IMG/img-fonfo.jpg');
     background-size: cover;
     filter: contrast(100%);
@@ -33,7 +32,11 @@ body {
   
 .container {
     display:flex;
-    justify-content: space-evenly;  
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .logo{
@@ -41,11 +44,11 @@ body {
     border-radius: 15rem;
     opacity: .5;
     filter: contrast(100%);
-    width: 500px;
+    width: 700px;
     height: 200px;
     padding: 0px 0px 0px 0px; 
-    margin: 40px;
-    box-shadow: var(--celeste) 0px 0px 95px, var(--azul) 0px 4px 31px;
+    margin: 50px 0px 20px 0px;
+    box-shadow: var(--verde) 0px 0px 95px, var(--azul) 0px 4px 31px;
     border: 1px solid var(--azul-fran);
 }
 
@@ -68,7 +71,7 @@ body {
     color: var(--laranja);
     font-size: 30px; 
     font-weight: bold;
-    text-shadow: 2px 2px #000, 3px 3px #888;
+    text-shadow: 2px 2px var(--oscuro), 3px 3px var(--app-grey);
       
 }
 
@@ -82,7 +85,7 @@ body {
     display: flex;
     max-width:none;
     height: 500px;
-    border-radius: 5rem;
+    border-radius: 4rem;
 }
 
 .slider img {
@@ -100,8 +103,14 @@ body {
     filter: contrast(120%);
 }
 
+.botones {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+
 .boton1 {
-    display:flex;
     font-size: 25px;
     border: none;
     border-radius: 24px;
@@ -119,19 +128,20 @@ body {
 footer img {
     display:inline-flex;
     text-align-last: left;
-    width: 50px;   
+    width: 50px; 
+    padding: 50px 0px 50px 0px;  
 }
 
 footer img:hover {
     display: inline-flex;
     cursor:crosshair;
-    width: 100px;
+    width: 80px;
     opacity: 1;
-    filter: contrast(150%);
+    filter: contrast(190%);
     object-fit: cover;
     opacity: .8;
-    transition: .9s ease;
-    margin: -100px 100px 200px 100px ;
+    transition: .5s ease;
+    padding: 0px 0px 100px 0px;  
 }
 
 
@@ -142,20 +152,26 @@ footer img:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;      
+        align-items: center; 
+        border-radius: 2rem;
+        opacity: .9;
+        width: 90%;
+        height: 90%;
+        margin: 10px 20px 10px 20px;
+        padding: 0px 0px 0px 0px;
     }
 
     .logo {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 320px;
-        height: 120px;
+        width: 300px;
+        height: 150px;
         opacity: .5;
         filter: contrast(90%);
-        border-radius: 8rem;
+        border-radius: 10rem;
         padding: 0px 0px 0px 0px;
-        margin: 20px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
     }
 
     .item1 img {
@@ -166,20 +182,20 @@ footer img:hover {
     }
 
     .contenido-informativo {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         justify-content: center;
         align-items: center;
         color: var(--verde);
         margin: 0px 0px 0px 0px;
-        padding: 0px 30px 0px 0px;
+        padding: 0px 30px 10px 0px;
     }
 
     .slider {
         display: flex;
         aspect-ratio: 10 / 16;
-        width: 350px;
-        height: 350px;
+        width: 90%;
+        height: 550px;
         position: relative;
         overflow: scroll;
         scroll-snap-type: x mandatory;
@@ -190,34 +206,38 @@ footer img:hover {
         left: 0;
         position: sticky;
         object-fit: cover;
-        border-radius: 5px;
+        border-radius: 2px;
         scroll-snap-align: center;
     }
 
     .fondo {
         background-size: cover;
-        filter: contrast(100%);
+        filter: contrast(110%);
     }
 
     .boton1 {
         display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         font-size: 20px;
         border: none;
         border-radius: 5rem;
         cursor: pointer;
         color: var(--app-grey);
         width: 200px;
-        height: 50px;
-        justify-content: center;
+        height: 40px;
         background-color: var(--verde);
-        margin:50px 0px 0px 90px;
+        opacity: .8;
+        margin: 20px 0px 0px 80px; 
     }
 
     footer img {
         display: inline flex;
-        width: 40px;
+        width: 50px;
         justify-content: center;
-        margin: 70px 30px 30px 25px;     
+        margin: 10px 18px 10px 18px;
+        padding: 10px;     
     }
 
 }

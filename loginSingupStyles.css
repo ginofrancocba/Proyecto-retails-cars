@@ -1,4 +1,4 @@
-@import url('./stylesGlobal.css');
+@import url('./globalStyles.css');
 
 body {
     background-image: url('IMG/img-fonfo.jpg');
@@ -16,23 +16,6 @@ header {
     margin-bottom: 20rem;
 }
 
-nav {
-    padding: 1rem;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav h1 span {
-    font-weight: 300;
-    font-size: 1rem;
-    color: var(--lila);
-}
-nav img {
-    display: block;
-    height: 80%;
-}
 
 .container {
     padding: 0 5%;
