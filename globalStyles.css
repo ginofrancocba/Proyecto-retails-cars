@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
+    margin-top: 5%;
 }
 
 .logo{
@@ -110,7 +111,7 @@ body {
     text-align: center;
 }
 
-.boton1 {
+button {
     font-size: 25px;
     border: none;
     border-radius: 24px;
@@ -125,11 +126,13 @@ body {
     border: 1px solid var(--azul-fran);
 }
 
+
 footer img {
     display:inline-flex;
-    text-align-last: left;
+    text-align: start;
     width: 50px; 
     padding: 50px 0px 50px 0px;  
+    margin: 20px;
 }
 
 footer img:hover {

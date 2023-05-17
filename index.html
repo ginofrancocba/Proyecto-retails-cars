@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:p="http://primefaces.org/ui">
+<html lang="en" 
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:h="http://xmlns.jcp.org/jsf/html"
+xmlns:f="http://xmlns.jcp.org/jsf/core"
+xmlns:p="http://primefaces.org/ui">
 <head>
     
     <meta charset="UTF-8">
@@ -13,15 +17,19 @@
     <script src="https://kit.fontawesome.com/4635025c29.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <groupId>org.primefaces</groupId>
-    <artifactId>primefaces</artifactId>
-    <version>12.0.0</version>
+
+     <!-- ------------------------------ Bibliotecas ------------------------------ -->
+     <dependency>
+        <groupId>org.primefaces</groupId>
+        <artifactId>primefaces</artifactId>
+        <version>12.0.0</version>
+    </dependency>
  
-    <!-- ---------------- estilos compartidos de login y signup ---------------- -->
+    <!-- ---------------- Estilos compartidos de login y signup ---------------- -->
     <link rel="stylesheet" href="loginSingupStyles.css">
  
     <!-- ---------------------- logica aplicada en login ----------------------- -->
-
+    
 </head>
 
 <body class="fondo">
@@ -50,15 +58,16 @@
             </div>
         <nav class="botones">
             <button class="boton1" type="submit">Hablemos</button>
-            <button class="boton1" type="submit">Dónde estamos</button>
+            <button id="btn-google-maps" type="submit">Dónde estamos</button>
+            <button class="boton1" type="submit">Promociones</button>
         </nav>
 
     </section>  
 
-    <footer>
-        
+    <footer>  
        <a href=""> <img src="IMG/icon-facebook.png"> <img src="IMG/icon-instagram.png"></a>
     </footer>
+        <script src="scripts/loginGps.js" defer></script>
 </body>
 
 </html>
