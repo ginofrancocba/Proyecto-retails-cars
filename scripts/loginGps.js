@@ -1,15 +1,11 @@
 //Abrir en una nueva pestaña
-/*document.getElementById('btn-google-maps').addEventListener("click", function() {
-    window.open("https://www.otra-pagina.com", "_blank");
-  });*/
-  
+
 
 // Obtener el elemento del botón por su id
 var btnGoogleMaps = document.getElementById('btn-google-maps');
 
-
 // Agregar un evento de clic al botón
-btnGoogleMaps.addEventListener('click', function(){
+btnGoogleMaps.addEventListener('click', function() {
 
 
 // Obtener las coordenadas de la ubicación
@@ -21,6 +17,6 @@ var longitud = -64.20990; // Longitud de la ubicación
 var url = 'https://www.google.com/maps?q=' + latitud + ',' + longitud;
 
 // Redireccionar a la ubicación precisa en Google Maps   
-window.location.href = url;
+window.open(url, '_blank');
 });   
 
