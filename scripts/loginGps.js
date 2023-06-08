@@ -1,6 +1,4 @@
 //Abrir en una nueva pestaña
-
-
 // Obtener el elemento del botón por su id
 var btnGoogleMaps = document.getElementById('btn-google-maps');
 

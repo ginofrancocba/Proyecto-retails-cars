@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" 
-xmlns="http://www.w3.org/1999/xhtml"
-xmlns:h="http://xmlns.jcp.org/jsf/html"
-xmlns:f="http://xmlns.jcp.org/jsf/core"
-xmlns:p="http://primefaces.org/ui">
-<head>
-    
+<html lang="en">
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColonDetailCar</title>
     <link rel="stylesheet" href="globalStyles.css"> 
+    <link rel="stylesheet" href="loginSingupStyles.css">
 
     <!-- ------------------------------ Librerias ------------------------------ -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -19,20 +15,17 @@ xmlns:p="http://primefaces.org/ui">
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
      <!-- ------------------------------ Bibliotecas ------------------------------ -->
-     <dependency>
-        <groupId>org.primefaces</groupId>
-        <artifactId>primefaces</artifactId>
-        <version>12.0.0</version>
-    </dependency>
+   
  
     <!-- ---------------- Estilos compartidos de login y signup ---------------- -->
-    <link rel="stylesheet" href="loginSingupStyles.css">
+   
+   
  
     <!-- ---------------------- logica aplicada en login ----------------------- -->
     
 </head>
 
-<body class="fondo">
+<body class="fondo"></body>
     <header class="container">
         <nav>
             <img class="logo" src="IMG/img-logo-png.png" alt="img Logo">
@@ -46,30 +39,34 @@ xmlns:p="http://primefaces.org/ui">
     </header>
 
     <section>        
-            <div class="slider">
-                <img src="IMG/img-auto-1.jpeg" alt="imagen auto 1  ">
-                <img src="IMG/img-auto-2.jpeg" alt="imagen auto 2 ">
-                <img src="IMG/img-auto-3.jpeg" alt="imagen auto 3 ">
-                <img src="IMG/img-auto-4.jpeg" alt="imagen auto 4 ">
-                <img src="IMG/img-auto-5.jpeg" alt="imagen auto 5 ">
-                <img src="IMG/img-auto-6.jpeg" alt="imagen auto 6 ">
-                <img src="IMG/img-auto-7.jpeg" alt="imagen auto 7 ">
-                <img src="IMG/img-auto-8.jpeg" alt="imagen auto 8 ">
-            </div>
+        <div class="slider">
+            <img src="IMG/img-auto-1.jpeg" alt="imagen auto 1  ">
+            <img src="IMG/img-auto-2.jpeg" alt="imagen auto 2 ">
+            <img src="IMG/img-auto-3.jpeg" alt="imagen auto 3 ">
+            <img src="IMG/img-auto-4.jpeg" alt="imagen auto 4 ">
+            <img src="IMG/img-auto-5.jpeg" alt="imagen auto 5 ">
+            <img src="IMG/img-auto-6.jpeg" alt="imagen auto 6 ">
+            <img src="IMG/img-auto-7.jpeg" alt="imagen auto 7 ">
+            <img src="IMG/img-auto-8.jpeg" alt="imagen auto 8 ">
+        </div>
         <nav class="botones">
              <!--<button class="boton1" type="submit">Hablemos</button>-->
             <button id="btn-google-maps" type="submit" >Dónde estamos</button>
-            <button class="boton1" type="submit">Promociones</button>
+            <button id="btn2" type="submit" ><a href="signup.html">Promociones</a></button>
         </nav>
 
     </section>  
 
     <footer>  
-       <a href="https://www.facebook.com/colondetailcar2060?mibextid=LQQJ4d" alt="Abrir WhatsApp" target="_blank" > <img src="IMG/icon-facebook.png" ></a>          
-       <a href="https://instagram.com/colondetailcar?igshid=ZWQyN2ExYTkwZQ==" alt="Abrir WhatsApp" target="_blank" ><img src="IMG/icon-instagram.png" ></a> 
-       <a href="https://api.whatsapp.com/send?phone=+543512302145&text=Me contacto desde la web, estoy haciendo pruebas ?" alt="Abrir WhatsApp" target="_blank" ><img src="IMG/icon-whatsapp.png" ></a>
+        
+       
+   
+       <a href="https://www.facebook.com/colondetailcar2060?mibextid=LQQJ4d" alt="Abrir facebook" target="_blank" > <img src="IMG/icon-facebook.png" ></a>          
+       <a href="https://instagram.com/colondetailcar?igshid=ZWQyN2ExYTkwZQ==" alt="Abrir instagram" target="_blank" ><img src="IMG/icon-instagram.png" ></a> 
+       <a href="https://api.whatsapp.com/send?phone=+543518149736&text=Me contacto desde la web: info...?" alt="Abrir WhatsApp" target="_blank" ><img src="IMG/icon-whatsapp.png" ></a>
     </footer>
-        <script src="scripts/loginGps.js" defer></script>
+        <script src="scripts/loginGps.js" ></script>
+        <script src="scripts/promos.js" ></script>
 </body>
 
 </html>

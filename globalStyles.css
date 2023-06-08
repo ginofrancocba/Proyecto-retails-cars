@@ -38,6 +38,7 @@ body {
     flex-grow: 1;
     flex-shrink: 1;
     margin-top: 5%;
+    background-color: var(--negro);
 }
 
 .logo{
@@ -169,7 +170,7 @@ footer img:hover {
         justify-content: center;
         align-items: center;
         width: 300px;
-        height: 150px;
+        height: 100px;
         opacity: .5;
         filter: contrast(90%);
         border-radius: 10rem;
@@ -218,7 +219,7 @@ footer img:hover {
         filter: contrast(110%);
     }
 
-    .boton1 {
+    .btn2 {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -228,7 +229,7 @@ footer img:hover {
         border-radius: 5rem;
         cursor: pointer;
         color: var(--app-grey);
-        width: 200px;
+        width: 50px;
         height: 40px;
         background-color: var(--verde);
         opacity: .8;

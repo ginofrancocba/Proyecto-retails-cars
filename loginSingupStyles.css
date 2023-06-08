@@ -1,75 +1,9 @@
 @import url('./globalStyles.css');
 
-body {
-    background-image: url('IMG/img-fonfo.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* capa sobre fondo */
-    /*box-shadow: inset 0 0 0 1000px var(--negro);*/
-
-}
-
-header {
-    background-color: var(--negro);
-    height: 19rem;
-    margin-bottom: 20rem;
-}
-
-form {
-    background-color: var(--negro);
-    max-width: 24rem;
-    margin: 0 auto;
-    padding: 2rem 3rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-}
 
 
-.form-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-}
 
-.form-header h2 {
-    margin-bottom: .8rem;
-}
 
-.form-header p {
-    background-color: var(--lila);
-    padding: .2rem 1rem;
-}
-
-form label {
-    margin-bottom: .3rem;
-}
-
-form input {
-    border-radius: 100vh;
-    margin-bottom: 1rem;
-    padding: .3rem 1rem;
-    border: 2px solid var(--app-grey);
-}
-
-form input:focus {
-    outline: none;
-    border: 2px solid var(--lila);
-}
-
-form button{
-    background-color: var(--azul);
-    color: white;
-    padding: .8rem 0;
-    border-radius: .3rem;
-    font-size: 1rem;
-    font-weight: 400;
-}
-form button:hover{
-    background-color: var(--azul-hover);
-}
 
 .ingresarA {
     padding: 1rem 0;
