@@ -1,18 +1,3 @@
-@import url('./globalStyles.css');
+/*@import url('./globalStyles.css');*/
 
 
-
-
-
-
-.ingresarA {
-    padding: 1rem 0;
-    text-align: center;
-}
-
-.ingresarA a {
-    color: var(--lila);
-}
-.ingresarA a:hover{
-    color: var(--azul);
-}
