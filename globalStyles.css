@@ -242,6 +242,7 @@ footer img:hover {
         position: relative;
         overflow: scroll;
         scroll-snap-type: x mandatory;
+        border-radius: 1rem;
     }
     
     .slider img {
