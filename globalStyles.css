@@ -165,6 +165,7 @@ footer img:hover {
     transition: .5s ease;
     padding: 0px 0px 100px 0px;  
 }
+
 .copyright li {
     display:flex;
     text-align:center;
@@ -196,13 +197,13 @@ footer img:hover {
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-      }
+    }
       
       .container2 img {
         width: 350px;
         object-fit: cover;
         margin: 30px;
-      }
+    }
 
     .logo {
         display: flex;
@@ -302,7 +303,6 @@ footer img:hover {
 
     .copyright li {
         display: flex;
-
         font-size: 10px;
         color: var(--app-grey);
         list-style-type: none;
