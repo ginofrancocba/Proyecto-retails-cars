@@ -146,7 +146,7 @@ button {
 }
 
 
-footer img {
+.rrss img {
     display:inline-flex;
     text-align: start;
     width: 50px; 
@@ -154,7 +154,7 @@ footer img {
     margin: 20px;
 }
 
-footer img:hover {
+.rrss img:hover {
     display: inline-flex;
     cursor:crosshair;
     width: 80px;
@@ -169,12 +169,21 @@ footer img:hover {
 .copyright li {
     display:flex;
     text-align:center;
-    justify-content:flex-start;
-    font-size: 12px;
+    font-size: 15px;
     color: var(--app-grey);
     list-style-type: none;
 }
 
+.copyright:hover{
+    all: unset;
+}
+  
+.naoki {
+    display: flex;
+    width: 20px;
+    text-align: center;
+    justify-content: end;
+}
 
 
 @media screen and (max-width: 844px ) {
@@ -295,7 +304,7 @@ footer img:hover {
         justify-content: center;; 
     }
 
-    footer img {
+    .rrss img {
         width: 50px; 
         padding: 10px;
         margin: 10px 20px 10px 20px;
@@ -306,6 +315,11 @@ footer img:hover {
         font-size: 10px;
         color: var(--app-grey);
         list-style-type: none;
+    }
+
+    .naoki {
+        display: flex;
+        width: 20px;
     }
 
 }
