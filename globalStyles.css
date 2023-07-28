@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    margin-top: 5%;
+    margin:5%;
     background-color: var(--negro);
 }
 
