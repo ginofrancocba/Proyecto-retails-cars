@@ -84,6 +84,7 @@ video {
     border-radius: 3rem;
     opacity: .3;
 }
+
 .contenido-informativo {
     display: flex;
     text-align: center;
@@ -107,6 +108,8 @@ video {
     max-width:none;
     height: 500px;
     border-radius: 4rem;
+    box-shadow:-17px 20px 5px 13px rgb(184, 186, 192);
+    border-radius: 4%;
 }
 
 .slider img {
@@ -152,7 +155,6 @@ button {
     border: 1px solid var(--azul-fran);
 }
 
-
 .rrss img {
     display:inline-flex;
     text-align: start;
@@ -191,7 +193,6 @@ button {
     text-align: center;
     justify-content: end;
 }
-
 
 @media screen and (max-width: 844px ) {
 
