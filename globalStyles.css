@@ -48,10 +48,17 @@ body {
   align-items: center;
 }
 
+video {
+    box-shadow:-17px 20px 5px 13px rgb(184, 186, 192);
+    border-radius: 4%;
+}
+
 .container2 img {
   width: 350px;
   object-fit: cover;
   margin: 30px;
+  box-shadow:-17px 20px 5px 13px rgb(184, 186, 192);
+  border-radius: 4%;
 }
 
 .logo{
