@@ -3,6 +3,7 @@
 :root {
     --negro: #000000ff;
     --oscuro: #1c1c1f;
+    --semi-oscuro: #8c8c8e;
     --app-grey: #F2F2F2;
     --grey: rgb(184, 186, 192);
     --azul: rgb(91, 91, 229);
@@ -26,53 +27,56 @@
 }
 
 body {
-    background: linear-gradient(-45deg, var(--app-grey) 0%, var(--oscuro) 100% );
+    background: linear-gradient(-65deg, var(--semi-oscuro) 0%, var(--negro) 100% );
     background-size: cover;
     filter: contrast(100%);
 }
   
 .container {
-    display:flex;
+    display: flex;
     justify-content: space-evenly; 
     align-items: center;
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    margin:5%;
+    margin: 5%;
     background-color: var(--negro);
+    border-radius: 20px;
 }
 
 .container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-evenly ;
+    margin: 0% 10% 0% 10% ;
+    align-items: center ;
 }
 
 video {
-    box-shadow:-17px 20px 5px 13px var(--grey) ;
-    border-radius: 4%;
+    box-shadow: 5px 20px 20px 20px  var(--grey) ;
+    border-radius: 4% ;
+    margin: 0% 10% 10% 10% ;
 }
 
 .container2 img {
-  width: 350px;
-  object-fit: cover;
-  margin: 30px;
-  box-shadow:-17px 20px 5px 13px var(--grey) ;
-  border-radius: 4%;
+    width: 350px ;
+    object-fit: cover ;
+    margin: 5% 10% 10% 10% ;
+    box-shadow:5px 20px 20px 20px var(--grey) ;
+    border-radius: 4% ;
 }
 
 .logo{
-    display: flex;
-    border-radius: 15rem;
-    opacity: .5;
-    filter: contrast(100%);
-    width: 700px;
-    height: 200px;
-    padding: 0px 0px 0px 0px; 
-    margin: 50px 0px 20px 0px;
-    box-shadow: var(--verde) 0px 0px 95px, var(--azul) 0px 4px 31px;
-    border: 1px solid var(--azul-fran);
+    display: flex ;
+    border-radius: 15rem ;
+    opacity: .5 ;
+    filter: contrast(100%) ;
+    width: 700px ;
+    height: 200px ;
+    padding: 0px 0px 0px 0px ; 
+    margin: 50px 0px 20px 0px ;
+    box-shadow: var(--verde) 0px 0px 95px, var(--azul) 0px 4px 31px ;
+    border: 1px solid var(--azul-fran) ;
 }
 
 .items {
@@ -95,7 +99,7 @@ video {
     color: var(--laranja);
     font-size: 30px; 
     font-weight: bold;
-    text-shadow: 2px 2px var(--oscuro), 3px 3px var(--app-grey);     
+    text-shadow: 2px 2px var(--oscuro), 3px 3px var(--semi-oscuro);     
 }
 
 .contenido-informativo:hover {
