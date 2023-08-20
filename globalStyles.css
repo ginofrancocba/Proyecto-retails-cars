@@ -221,7 +221,7 @@ button {
         align-items: center;
     }
       
-      .container2 img {
+    .container2 img {
         width: 350px;
         object-fit: cover;
         margin: 30px;
@@ -261,7 +261,7 @@ button {
         display: flex;
         aspect-ratio: 10 / 16;
         width: 90%;
-        height: 450px;
+        height: 300px;
         position: relative;
         overflow: scroll;
         scroll-snap-type: x mandatory;
@@ -275,6 +275,8 @@ button {
         object-fit: cover;
         border-radius: 10px;
         scroll-snap-align: center;
+        margin: 2%; 
+
     }
 
     .fondo {
@@ -288,12 +290,11 @@ button {
         border: none;
         border-radius: 1rem;
         cursor: pointer;
-        width: 150px;
+        width: 120px;
         height: 30px;
         align-items: center;
         justify-content: center;
         background-color: var(--verde);
-        margin: 15px; 
         box-shadow: var(--celeste) 0px 0px 4px, var(--azul) 0px 4px 31px;
         border: 1px solid var(--azul-fran);
     }
@@ -308,6 +309,7 @@ button {
         color: var(--app-grey);
         background-color: var(--verde);
         opacity: .8;
+        margin: 5%;
     }
 
     footer  {
