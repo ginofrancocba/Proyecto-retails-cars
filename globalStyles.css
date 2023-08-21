@@ -242,7 +242,7 @@ button {
 
     .item1 img {
         display: inline-flex;
-        width: 30px;
+        width: 10%;
         border-radius: 2rem;
         opacity: .3;
     }
