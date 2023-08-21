@@ -266,6 +266,7 @@ button {
         overflow: scroll;
         scroll-snap-type: x mandatory;
         border-radius: 1rem;
+        box-shadow:-17px 10px 5px 13px rgb(184, 186, 192);
     }
     
     .slider img {
