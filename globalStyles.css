@@ -48,22 +48,22 @@ body {
     display: flex ;
     flex-wrap: wrap ;
     justify-content: space-evenly ;
-    margin: 0% 10% 0% 10% ;
+    margin: 0% 10% 0% 5% ;
     align-items: center ;
 }
 
 video {
     box-shadow: 5px 20px 20px 20px  var(--grey) ;
-    border-radius: 4% ;
-    margin: 0% 10% 10% 10% ;
+    border-radius: 10px ;
+    margin: 0% 5% 5% 5% ;
 }
 
 .container2 img {
-    width: 350px ;
+    width: 300px ;
     object-fit: cover ;
-    margin: 5% 10% 10% 10% ;
+    margin: 5% 5% 5% 5% ;
     box-shadow:5px 20px 20px 20px var(--grey) ;
-    border-radius: 4% ;
+    border-radius: 10px ;
 }
 
 .logo{
