@@ -53,13 +53,14 @@ body {
 }
 
 video {
+    width : 490px ;
     box-shadow: 5px 20px 20px 20px  var(--grey) ;
     border-radius: 10px ;
-    margin: 0% 5% 5% 5% ;
+    margin: 5% 5% 5% 5% ;
 }
 
 .container2 img {
-    width: 300px ;
+    width: 450px ;
     object-fit: cover ;
     margin: 5% 5% 5% 5% ;
     box-shadow:5px 20px 20px 20px var(--grey) ;
@@ -139,7 +140,7 @@ video {
     text-align: center;
 }
 
- a {
+a {
     color: var(--app-grey);
     text-decoration: none;
 }
@@ -158,6 +159,11 @@ button {
     margin: 50px 0px 30px 0px; 
     box-shadow: var(--celeste) 0px 0px 4px, var(--azul) 0px 4px 31px;
     border: 1px solid var(--azul-fran);
+}
+
+.rrss {
+    display:flex;
+    width: 50%;
 }
 
 .rrss img {
@@ -180,12 +186,20 @@ button {
     padding: 0px 0px 100px 0px;  
 }
 
+.copyright {
+  
+    width: 50%;
+}
+
 .copyright li {
     display:flex;
+    width: 50%;
     text-align:center;
     font-size: 15px;
+    justify-content: end;
     color: var(--app-grey);
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 .copyright:hover{
@@ -193,10 +207,12 @@ button {
 }
   
 .naoki {
-    display: flex;
-    width: 20px;
-    text-align: center;
-    justify-content: end;
+    width: 50px;
+    text-align:justify;
+    margin: 0px 10px 0px 0px;
+    border-radius: 5px;
+    box-shadow: var(--semi-oscuro) 0px 2px 95px, var(--azul-hover) 0px 5px 10px;
+    border: 1px solid var(--azul-fran);
 }
 
 @media screen and (max-width: 844px ) {
@@ -317,7 +333,7 @@ button {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;; 
+        justify-content: center; 
     }
 
     .rrss img {
