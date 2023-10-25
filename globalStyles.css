@@ -241,7 +241,7 @@ footer {
         width: 90%;
         height: 90%;
         margin: 10px 20px 10px 20px;
-        padding: 0px 0px 0px 0px;
+        padding: 0px;
     }
     
     .container2 {
@@ -318,7 +318,7 @@ footer {
         color: var(--app-grey);
         font-size: 15px;
         border: none;
-        border-radius: 1rem;
+        border-radius: 2px;
         cursor: pointer;
         width: 120px;
         height: 30px;
@@ -326,7 +326,7 @@ footer {
         justify-content: center;
         background-color: var(--verde);
         box-shadow: var(--celeste) 0px 0px 4px, var(--azul) 0px 4px 31px;
-        border: 1px solid var(--azul-fran);
+        border: 0.5px solid var(--azul-fran);
     }
 
     .btn2 {
@@ -335,7 +335,7 @@ footer {
         text-align: center;
         align-items: center;
         border: none;
-        border-radius: 1rem;
+        border-radius: 2px;
         color: var(--app-grey);
         background-color: var(--verde);
         opacity: .8;
@@ -352,7 +352,7 @@ footer {
 
     .rrss img {
         width: 50px; 
-        padding: 10px;
+        padding: 5px;
         margin: 10px 20px 10px 20px;
     }
 
