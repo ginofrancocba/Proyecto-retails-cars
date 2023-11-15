@@ -85,7 +85,7 @@ video:hover {
     height: 200px;
     padding: 0px 0px 0px 0px; 
     margin: 50px 0px 20px 0px;
-    box-shadow: var(--verde) 0px 0px 95px, var(--azul) 0px 4px 31px;
+    box-shadow: var(--verde) 0px 0px 15px, var(--azul) 0px 4px 11px;
     border: 1px solid var(--azul-fran);
 }
 
@@ -123,8 +123,8 @@ video:hover {
     max-width:none;
     height: 500px;
     border-radius: 4rem;
-    box-shadow:-17px 20px 5px 13px rgb(184, 186, 192);
-    border-radius: 4%;
+    box-shadow: #80808047 5px 5px 5px 5px;
+      border: 1px solid grey;
 }
 
 .slider img {
@@ -166,7 +166,7 @@ button {
     justify-content: center;
     background-color: var(--oscuro);
     margin: 5rem 0px 5rem 0px; 
-    box-shadow: var(--celeste) 0px 0px 4px, var(--azul) 0px 4px 31px;
+    box-shadow: var(--celeste) 0px 0px 4px, var(--azul) 0px 4px 11px;
     border: 1px solid var(--azul-fran);
 }
 
