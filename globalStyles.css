@@ -8,8 +8,8 @@
     --grey: rgb(184, 186, 192);
     --azul: rgb(91, 91, 229);
     --azul-hover: rgb(40, 40, 197);
-    --azul-fran: rgb(102, 138, 255);
-    --verde: rgb(37, 177, 121);
+    --azul-fran: rgb(183, 197, 242);
+    --verde: rgb(161, 235, 206);
     --verde-fran: rgb(0, 255, 76);
     --rosa: #ff76e2ff;
     --lila: #8a6df1ff;
@@ -156,12 +156,12 @@ a {
 
 button {
     color: var(--app-grey);
-    font-size: 25px;
+    font-size: 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 200px;
-    height: 40px;
+    width: 150px;
+    height: 35px;
     align-items: center;
     justify-content: center;
     background-color: var(--oscuro);
