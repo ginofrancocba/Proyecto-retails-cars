@@ -121,14 +121,13 @@ video:hover {
 .slider {
     display: flex;
     max-width:none;
-    height: 500px;
-    border-radius: 4rem;
-    box-shadow: #80808047 5px 5px 5px 5px;
-      border: 1px solid grey;
+    height: 70vh;
+    box-shadow: #80808047 5px 5px 8px 10px;
+    border: 1px solid grey;
 }
 
 .slider img {
-    width: 0px;
+    width: 0vw;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
@@ -137,7 +136,7 @@ video:hover {
 
 .slider img:hover {
     cursor: crosshair;
-    width: 600px;
+    width: 50vw;
     opacity: 1;
     filter: contrast(120%);
 }
