@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --amarelo: #ffc51aff;
     --app-grey: #F2F2F2; 
     --azul: rgb(91, 91, 229);
     --azul-fran: rgb(183, 197, 242);
@@ -17,6 +16,7 @@
     --verde: rgb(161, 235, 206);
     --verde-fran: rgb(0, 255, 76);
     --white: rgb(255, 255, 255);
+    --yellow: #ffc51aff;
 }
 
 * {
