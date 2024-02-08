@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Montserrat:wght@400;700&display=swap');
 
 :root {
+    --amarelo: #ffc51aff;
+    --app-grey: #F2F2F2; 
+    --azul: rgb(91, 91, 229);
+    --azul-fran: rgb(183, 197, 242);
+    --azul-hover: rgb(40, 40, 197);
+    --celeste: rgba(0, 212, 255, 0.75);
+    --grey: rgb(184, 186, 192);
+    --laranja: rgb(222, 216, 215);
+    --lila: #8a6df1ff;
     --negro: #000000ff;
     --oscuro: #1c1c1f;
+    --rosa: #ff76e2ff;
     --semi-oscuro: #8c8c8e;
-    --app-grey: #F2F2F2;
-    --grey: rgb(184, 186, 192);
-    --azul: rgb(91, 91, 229);
-    --azul-hover: rgb(40, 40, 197);
-    --azul-fran: rgb(183, 197, 242);
     --verde: rgb(161, 235, 206);
     --verde-fran: rgb(0, 255, 76);
-    --rosa: #ff76e2ff;
-    --lila: #8a6df1ff;
-    --laranja: rgb(222, 216, 215);
-    --amarelo: #ffc51aff; 
-    --celeste: rgba(0, 212, 255, 0.75);
 }
 
 * {
