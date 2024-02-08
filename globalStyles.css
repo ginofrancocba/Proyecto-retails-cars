@@ -16,6 +16,7 @@
     --semi-oscuro: #8c8c8e;
     --verde: rgb(161, 235, 206);
     --verde-fran: rgb(0, 255, 76);
+    --white: rgb(255, 255, 255);
 }
 
 * {
@@ -27,7 +28,7 @@
 }
 
 body {
-    background: linear-gradient(-65deg, var(--semi-oscuro) 0%, var(--negro) 100% );
+    background: linear-gradient(-65deg, var(--grey) 0%, var(--white) 100% );
     background-size: cover;
     filter: contrast(100%);
 }
