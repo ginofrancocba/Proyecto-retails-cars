@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 2%;
+    margin: 0%;
     background-color: var(--negro);
     border-radius: 10px;
 }
